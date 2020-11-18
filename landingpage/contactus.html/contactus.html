@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>contactus.php</title>
+        <meta= charset= "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="contactus.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 m-auto">
+                    <div class="card">
+                        <div class="card-title">
+                            <h2 class="text-center py-2">For Enquires</h2>
+                            <hr>
+                        </div>
+                        <div class="card-body">
+                            <form action="process.php" method="post">
+                                <input type="text" name="Name" placeholder="name" class="form-control mb-2">
+                                <input type="text" name="Phone" placeholder="phone" class="form-control mb-2">
+                                <input type="email" name="Email" placeholder="email" class="form-control mb-2">
+                                <input type="text" name="Subject" placeholder="Subject" class="form-control mb-2">
+                                <textarea name="msg" class="form-control" placeholder="paw your message"></textarea>
+                                <button type="button" class="btn btn-dark btn-primary btn-block">Submit</button>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
