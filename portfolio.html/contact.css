@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=David+Libre&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1541739358-9f3a2a3b6559?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1334&q=80);
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 350px;
+    width: 100%;
+    padding: 25px;
+    background: #fff;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+
+.wrapper h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #332902;
+}
+
+.wrapper .input_field {
+    margin-bottom: 10px;
+}
+
+.wrapper .input_field .input[type="text"], 
+.wrapper textarea {
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+}
+
+.wrapper textarea {
+    height: 40px;
+    resize: none;
+}
+
+.wrapper .btn input[type="submit"] {
+    border: 0;
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background: #fece0c;
+    color: #332902;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.wrapper #error_message {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #fe8b8e;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+}

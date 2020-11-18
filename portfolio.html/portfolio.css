@@ -1,0 +1,277 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?ixlib=rb-1.2.1&auto=format&fit=crop&w=1333&q=80);
+    margin: 0;
+    padding: 0;   
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    width: 100%;
+    height: 95vh;
+    background-image: url(".../images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    padding: 0px 5%;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    margin: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #505050;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.logo {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000000;
+    font-size: 22px;
+}
+
+.active {
+    font-weight: bold;
+    color: #2d2a2a;
+}
+
+.text-decoration p:nth-child(1) {
+    font-family: calibri;
+    font-weight: bold;
+    color: #6d6d6d;
+    font-size: 22px;
+}
+
+.text-decoration p:nth-child(2) {
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #1a1a1a;
+    font-size: 60px;
+}
+
+.text-decoration p:nth-child(3) {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #403e3e;
+    font-size: 30px;
+}
+
+.text-container p{
+    line-height: 0px;
+    margin: 45px 0px 25px;
+    color: #FFFFFF;
+}
+
+.text-container {
+    position: absolute;
+    left: 13%;
+    top: 42%;
+    transform: translate(-13%,-42%);
+}
+
+.text-container button {
+    clear: both;
+    background-color: #aaa;
+    border: 0 none;
+    border-radius: 4px;
+    transition: all 0.23s ease-in-out 0s;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: normal;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 5px 10px 0;
+    padding: 0 22px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: auto;
+}
+
+.text-container p {
+    margin: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 0px;
+}
+.view-cv {
+    clear: both;
+    background-color: #aaa;
+    border: 0 none;
+    border-radius: 4px;
+    transition: all 0.23s ease-in-out 0s;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: normal;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 5px 10px 0;
+    padding: 0 22px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: auto;
+}
+
+button:active {
+    transform: scale(1.1);
+}
+
+
+
+
+
+.contact-me {
+    text-align: center;
+    color: #FFFFFF;
+    outline: none;
+}
+
+.contact-me p {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: calibri;
+    font-weight: bold;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.contact-me button {
+    clear: both;
+    background-color: #aaa;
+    border: 0 none;
+    border-radius: 4px;
+    transition: all 0.23s ease-in-out 0s;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: normal;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 5px 10px 0;
+    padding: 0 22px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: auto;
+}
+
+footer {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+footer p {
+    font-family: calibri;
+}
+
+footer p:nth-child(1) {
+    font-size: 30px;
+    font-weight: bold;
+    color: #191919;
+    line-height: 10px;
+}
+
+footer p:nth-child(2) {
+    font-size: 16px;
+    color: #7e7d7d;
+    width: 600px;
+    text-align: center;
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e3e3;
+    margin: 20px 10px;
+    border-radius: 50%;  
+}
+
+.social-icons {
+    display: flex;
+}
+
+.copyright {
+    color: #565555;
+    font-size: 13px;
+    position: absolute; 
+    left: 50%;
+    bottom: 10px;
+    transform:translateX(-50%);
+}
+
+.social-icons i {
+    color: #000000;
+}
+
+.social-icons a:hover,
+.a-social-b a:hover {
+    background-color: #000000;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    transition: all ease 0.5s; 
+}
+
+.social-icons a:hover i,
+.a-social-b a:hover i {
+    color: #FFFFFF;
+    transition: all ease 0.5s;
+}
+
+.a-social-b {
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+}
+
+.a-social-b a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+    background-color: #FFFFFF;
+    border: 1px solid #cbcbcb;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+
+.a-social-b i {
+    color: #2b2b2b;
+    font-size: 20px;
+}

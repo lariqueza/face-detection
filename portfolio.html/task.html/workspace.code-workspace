@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Downloads/axios-master"
+		}
+	],
+	"settings": {
+		"compile-hero.disable-compile-files-on-did-save-code": true,
+		"liveServer.settings.multiRootWorkspaceName": "task.html"
+	}
+}
